@@ -1,0 +1,9 @@
+NULL在c++中是一个宏，是一个空指针常量，如果将NULL扩展为常数，那么这个数是0，类型为int。
+所以，常数0既是整型常量，也是空指针常量，这就有可能导致二义性问题。因此，c++11新标准引入了nullptr，将其作为空指针常量。
+
+
+#ifdef __cplusplus
+#define NULL 0
+#else
+#define NULL ((void *)0)
+#endif

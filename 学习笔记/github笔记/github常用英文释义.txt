@@ -1,0 +1,4 @@
+profile			n.概述，简介
+repository		n.存储库
+track			v.跟踪
+manage access   管理访问权限
